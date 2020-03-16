@@ -157,7 +157,7 @@ function async_scripts( string $tag, string $handle ) : string {
 function enqueue_scripts() {
 	global $wp_scripts;
 
-	wp_enqueue_script( 'altis-analytics', plugins_url( 'build/analytics.js', __DIR__ ), [], 'ecd271cf26695218808201ee27718d42', false );
+	wp_enqueue_script( 'altis-analytics', plugins_url( 'build/analytics.js', __DIR__ ), [], '659e9824ec82731fdb0eaf54a5b42177', false );
 	wp_add_inline_script(
 		'altis-analytics',
 		sprintf(
